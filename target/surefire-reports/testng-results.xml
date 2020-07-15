@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QA_Automation_Test Using BDD Approch" duration-ms="28904" started-at="2020-07-15T15:06:47 IST" finished-at="2020-07-15T15:07:16 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@51cdd8a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression" duration-ms="28904" started-at="2020-07-15T15:06:47 IST" finished-at="2020-07-15T15:07:16 IST">
+      <class name="com.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@51cdd8a]" name="setUpClass" is-config="true" duration-ms="367" started-at="2020-07-15T15:06:47 IST" finished-at="2020-07-15T15:06:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@51cdd8a]" name="runScenario" duration-ms="28305" started-at="2020-07-15T15:06:47 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-15T15:07:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User Login with valid and Invalid  Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@51cdd8a]" name="tearDownClass" is-config="true" duration-ms="179" started-at="2020-07-15T15:07:15 IST" finished-at="2020-07-15T15:07:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunner.TestRunner -->
+    </test> <!-- Regression -->
+  </suite> <!-- QA_Automation_Test Using BDD Approch -->
+</testng-results>
